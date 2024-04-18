@@ -103,6 +103,7 @@
       <DependentUpon>Problem3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

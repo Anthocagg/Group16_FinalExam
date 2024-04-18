@@ -21,7 +21,7 @@ namespace Group16_FinalExam
 
         protected void Problem2_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Problem2.aspx");
         }
 
         protected void Problem3_Click(object sender, EventArgs e)

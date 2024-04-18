@@ -1,17 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Group16_FinalExam
 {
-    public partial class Problem2 : System.Web.UI.Page
+    public partial class Problem2 : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                var solution = new Solution();
+                int[] nums = { 1, 2, 3 }; // Example input
+                var subsets = solution.Subsets(nums);
+                ltSubsets.Text = Convert.ToString(subsets);
+            }
+        }
 
+        private string FormatSubsetsForDisplay(IList<IList<int>> subsets)
+        {
+            var displayText = "<ul>";
+            foreach (var subset in subsets)
+            {
+                displayText += "<li>[" + string.Join(",", subset) + "]</li>";
+            }
+            displayText += "</ul>";
+            return displayText;
         }
     }
+
+    // Include the Solution class from the previous code here
 }
