@@ -1,33 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Group16_FinalExam;
 using System.Web.UI;
-
+using System;
+ 
 namespace Group16_FinalExam
 {
-    public partial class Problem2 : Page
+    public partial class Problem1 : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            var solution2 = new Solution2();
+            // Example grid for testing
+            int[][] grid = new int[][]
             {
-                var solution = new Solution();
-                int[] nums = { 1, 2, 3 }; // Example input
-                var subsets = solution.Subsets(nums);
-                ltSubsets.Text = FormatSubsetsForDisplay(subsets);
-            }
-        }
-
-        private string FormatSubsetsForDisplay(IList<IList<int>> subsets)
-        {
-            var displayText = "<ul>";
-            foreach (var subset in subsets)
-            {
-                displayText += "<li>[" + string.Join(",", subset) + "]</li>";
-            }
-            displayText += "</ul>";
-            return displayText;
+                new int[] {0, 1, 0, 0},
+                new int[] {1, 1, 1, 0},
+                new int[] {0, 1, 0, 0},
+                new int[] {1, 1, 0, 0}
+            };
+            int perimeter = solution2.IslandPerimeter(grid);
+            Label1.Text = "Island Perimeter: " + perimeter;
         }
     }
-
-    // Include the Solution class from the previous code here
 }

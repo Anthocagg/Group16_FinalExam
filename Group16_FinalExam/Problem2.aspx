@@ -1,7 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Problem2.aspx.cs" Inherits="Group16_FinalExam.Problem2" %>
-
+ 
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<html xmlns=http://www.w3.org/1999/xhtml>
 <head runat="server">
     <title>Problem 2 - Subsets</title>
 </head>
@@ -13,4 +14,3 @@
     </form>
 </body>
 </html>
-
