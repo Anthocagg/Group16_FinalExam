@@ -13,7 +13,7 @@ namespace Group16_FinalExam
                 var solution = new Solution();
                 int[] nums = { 1, 2, 3 }; // Example input
                 var subsets = solution.Subsets(nums);
-                ltSubsets.Text = Convert.ToString(subsets);
+                ltSubsets.Text = FormatSubsetsForDisplay(subsets); // Call FormatSubsetsForDisplay method
             }
         }
 
@@ -28,6 +28,4 @@ namespace Group16_FinalExam
             return displayText;
         }
     }
-
-    // Include the Solution class from the previous code here
 }
