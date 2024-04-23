@@ -1,4 +1,16 @@
-﻿using System;
+﻿/*
+# Name: Anthony Caggiano 
+# email: caggiaaj @mail.uc.edu
+# Assignment Title: Final Exam
+# Due Date: 4/23
+# Course: IS 3050
+# Semester/Year: Spring 2024
+# Brief Description: Final Project, Easy Medium Hard
+# Citations: https://copilot.microsoft.com/ , https://stackoverflow.com/ , https://leetcode.com/
+# Anything else that's relevant: N/A
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

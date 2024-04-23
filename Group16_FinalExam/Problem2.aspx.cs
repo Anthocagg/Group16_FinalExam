@@ -6,7 +6,7 @@
 # Course: IS 3050
 # Semester/Year: Spring 2024
 # Brief Description: Final Project, Easy Medium Hard
-# Citations: AI and Notes 
+# Citations: https://copilot.microsoft.com/ , https://stackoverflow.com/ , https://leetcode.com/
 # Anything else that's relevant: N/A
 */
 
@@ -40,7 +40,8 @@ namespace Group16_FinalExam
             return displayText;
 
             // Problem 78 - subsets: use backtracking solutions to solve problems, then display the text with all the subsets for numbers 1-3
-          
+
         }
+        
     }
 }
