@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 # Name: Anthony Caggiano 
 # email: caggiaaj @mail.uc.edu
 # Assignment Title: Final Exam
