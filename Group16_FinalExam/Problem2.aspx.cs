@@ -40,8 +40,7 @@ namespace Group16_FinalExam
             return displayText;
 
             // Problem 78 - subsets: use backtracking solutions to solve problems, then display the text with all the subsets for numbers 1-3
-
         }
-        
     }
 }
+
